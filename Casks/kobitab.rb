@@ -1,8 +1,8 @@
 cask "kobitab" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.13"
-  sha256 arm: "dee1071571648a5d6283053c277cd28a09795e08b2341751332132d103182fd2", intel: "9dc06b479f92eea08f1e151e4f1756157090857b46759a88b22098eb2ec9117f"
+  version "0.1.18"
+  sha256 arm: "5a71004c8df7a46c9cd29ffe4d38c83d879c4b48564b4231292a738140f9bdd1", intel: "7afe7bbeac4fce5dfd9c19057a2cc0e521fb827bc7d8423c2ed1b7d22f957e65"
 
   url "https://github.com/LostWarrior/Kobitab/releases/download/v#{version}/KobiTab-#{version}-mac-#{arch}.dmg",
       verified: "github.com/LostWarrior/Kobitab/releases/download/"
