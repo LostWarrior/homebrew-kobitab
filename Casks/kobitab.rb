@@ -1,8 +1,8 @@
 cask "kobitab" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.4"
-  sha256 arm: "a60938356d02addcf3195d8ba9dee9ac4aaf12d1b423c6ca96ecaafc6ad9c9b6", intel: "b41d23a54d622a10da047b1b529915887785f2f916f4d0f2e4adcac2392b1864"
+  version "0.1.13"
+  sha256 arm: "dee1071571648a5d6283053c277cd28a09795e08b2341751332132d103182fd2", intel: "9dc06b479f92eea08f1e151e4f1756157090857b46759a88b22098eb2ec9117f"
 
   url "https://github.com/LostWarrior/Kobitab/releases/download/v#{version}/KobiTab-#{version}-mac-#{arch}.dmg",
       verified: "github.com/LostWarrior/Kobitab/releases/download/"
@@ -11,4 +11,9 @@ cask "kobitab" do
   homepage "https://kobitab.com"
 
   app "KobiTab.app"
+
+  caveats <<~EOS
+    If macOS blocks first launch, run:
+      xattr -dr com.apple.quarantine /Applications/KobiTab.app
+  EOS
 end
