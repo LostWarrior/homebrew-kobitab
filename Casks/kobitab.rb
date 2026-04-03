@@ -1,10 +1,8 @@
 cask "kobitab" do
-  arch arm: "arm64", intel: "x64"
+  version "0.2.1"
+  sha256 "fa75005ea179a3d34b4bd6245f9a82bb66b0380da8b737b3bcf3798c644c48bc"
 
-  version "0.1.21"
-  sha256 arm: "d8aefdac0421aa79c8687cb93eead6c57ce8746b3d25b8f887f312b22d1de095", intel: "6d90cb34e53b7a194939810c211de0be965a74736607f42471d1c4297444acfb"
-
-  url "https://github.com/LostWarrior/Kobitab/releases/download/v#{version}/KobiTab-#{version}-mac-#{arch}.dmg",
+  url "https://github.com/LostWarrior/Kobitab/releases/download/v#{version}/KobiTab-#{version}-mac-universal.dmg",
       verified: "github.com/LostWarrior/Kobitab/releases/download/"
   name "KobiTab"
   desc "Privacy-first local bookmark manager"
