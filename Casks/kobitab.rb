@@ -1,9 +1,9 @@
 cask "kobitab" do
-  version "0.2.1"
-  sha256 "fa75005ea179a3d34b4bd6245f9a82bb66b0380da8b737b3bcf3798c644c48bc"
+  version "0.2.3"
+  sha256 "7d348c835ab205200cf6a306e417b3ca939137d19e84a99f8305b15ebc2e939d"
 
-  url "https://github.com/LostWarrior/Kobitab/releases/download/v#{version}/KobiTab-#{version}-mac-universal.dmg",
-      verified: "github.com/LostWarrior/Kobitab/releases/download/"
+  url "https://downloads.kobitab.com/releases/v#{version}/KobiTab-#{version}-mac-universal.dmg",
+      verified: "downloads.kobitab.com/releases/"
   name "KobiTab"
   desc "Privacy-first local bookmark manager"
   homepage "https://kobitab.com"
