@@ -1,6 +1,6 @@
 cask "kobitab" do
-  version "0.2.7"
-  sha256 "d5f22f355763af562780d8f025fd02c0331cb76643554bf17dbcf705e8b186c2"
+  version "1.1.0"
+  sha256 "aa084b97f51df20cdb9fcf9444107f62dd469a9a7bc4ab2225fb84d2990581e8"
 
   url "https://downloads.kobitab.com/releases/v#{version}/KobiTab-#{version}-mac-universal.dmg",
       verified: "downloads.kobitab.com/releases/"
